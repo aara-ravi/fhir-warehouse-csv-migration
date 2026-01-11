@@ -1,0 +1,40 @@
+{
+  "resourceType": "ImplementationGuide",
+  "id": "simple.fhir.warehouse",
+  "url": "http://example.org/fhir/ImplementationGuide/simple.fhir.warehouse",
+  "version": "0.1.0",
+  "name": "SimpleFHIRWarehouse",
+  "status": "draft",
+  "packageId": "simple.fhir.warehouse",
+  "fhirVersion": [
+    "4.0.1"
+  ],
+  "definition": {
+    "resource": [
+      {
+        "reference": {
+          "reference": "StructureDefinition/SimplePatient"
+        },
+        "name": "Simple Patient Profile",
+        "description": "Basic patient constraints for CSV migration",
+        "exampleBoolean": false
+      }
+    ],
+    "page": {
+      "nameUrl": "toc.html",
+      "title": "Table of Contents",
+      "generation": "html",
+      "page": []
+    },
+    "parameter": [
+      {
+        "code": "copyrightyear",
+        "value": "2026"
+      },
+      {
+        "code": "releaselabel",
+        "value": "ci-build"
+      }
+    ]
+  }
+}

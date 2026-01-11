@@ -1,0 +1,2 @@
+Output File                             Name           Type     FSH File           Lines
+StructureDefinition-SimplePatient.json  SimplePatient  Profile  SimplePatient.fsh  1 - 7
